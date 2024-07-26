@@ -14,4 +14,42 @@
   }
 }
 
+body {
+  margin: 10px 10px;
+}
+
+.texto {
+  line-height: 2em;
+}
+
+.linkHeader {
+  display: flex;
+  gap: 8px;
+  text-decoration: underline ;
+  text-decoration-color: midnightblue;
+  text-decoration-thickness: 3px;
+ 
+}
+
+.sectionStyle {
+  display: flex;
+  width: 100%;
+  gap: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding: 10px;
+  border: 1px solid black;
+  border-radius: 2px;
+  cursor: pointer;
+  position: relative;
+}
+
+.sectionStyle:hover {
+  background-color: rgba(0, 0, 0, 0.178);
+  transition: 0.3s;
+}
+
+.divInfos {
+  line-height: 1.7em;
+}
 
