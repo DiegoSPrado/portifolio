@@ -14,21 +14,25 @@ const Redes = [
     id: 1,
     icone: <FaGithub size={'1.5em'}/>,
     rede: 'Github',
+    link: 'https://github.com/DiegoSPrado'
   },
   {
     id: 2,
     icone: <FaLinkedin size={'1.5em'}/>,
     rede: 'Linkedin',
+    link: 'https://www.linkedin.com/in/diego-santos-do-prado-a111172b0/'
   },
   {
     id: 3,
     icone: <FaInstagram size={'1.5em'}/>,
     rede: 'Instagram',
+    link: 'https://www.instagram.com/die_prado/?hl=pt-br'
   },
   {
     id: 4,
     icone: <FaSpotify size={'1.5em'}/>,
     rede: 'Spotify',
+    link: 'https://open.spotify.com/user/chegadeschool?si=8fc3d48a3e234126'
   }
 ]
 export default function Home() {
@@ -39,7 +43,7 @@ export default function Home() {
       <div className='flex flex-col items-center  max-w-prose mx-auto  m-auto'>
       { Redes.map((e) => {
         return (
-          <Sections key={e.id} icon={e.icone} rede={e.rede}/>
+          <Sections key={e.id} icon={e.icone} rede={e.rede} link={e.link}/>
         )
       })}
       <div className='flex gap-40'>

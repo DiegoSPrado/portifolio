@@ -3,12 +3,15 @@ import { FiArrowUpRight } from "react-icons/fi";
 
 interface SectionsProps {
     icon: any,
-    rede: string
+    rede: string,
+    link: string,
+    
 }
 
 export default function Sections(props:SectionsProps) {
     return (
-        <div className='sectionStyle'>
+        <a  href={props.link} target="_blank" className='sectionStyle'>
+            
             <div className='m-[4px]'>
                 {props.icon}
             </div>
@@ -19,6 +22,6 @@ export default function Sections(props:SectionsProps) {
             <div className='absolute top-1/4 right-1 '>
                 <FiArrowUpRight size={'1.4em'}/>
             </div>
-        </div>
+        </a>
     )
 }

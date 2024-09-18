@@ -8,7 +8,7 @@ export default function Header() {
             <nav className='flex items-center justify-between '>
                 <a  className='flex flex-col font-bold p-[10px]'>
                    DiegoSPrado
-                    <span className='font-normal'>Front-end Developer</span>
+                    <span className='font-normal'>Software Engineer</span>
                 </a>
                 <div className='linkHeader '>
                     <Link href={"/"}>
