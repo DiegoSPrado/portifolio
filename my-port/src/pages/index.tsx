@@ -54,7 +54,7 @@ export default function Home() {
                 </p>
               </Link>
               <Link href={'/'}>
-                <p>Música, uma resenha...  
+                <p>YeasyMusic - em construção -  
                   <GoArrowRight className={'inline'}/>
                   </p>
               </Link> 
