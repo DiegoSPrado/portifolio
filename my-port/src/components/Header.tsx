@@ -6,10 +6,10 @@ export default function Header() {
     return (
         <div className={`max-w-prose m-auto ${KarlaPro.className} `}>
             <nav className='flex items-center justify-between '>
-                <a  className='flex flex-col font-bold p-[10px]'>
+                <Link  className='flex flex-col font-bold p-[10px]' href={'/'}>
                    DiegoSPrado
                     <span className='font-normal'>Software Engineer</span>
-                </a>
+                </Link>
                 <div className='linkHeader '>
                     <Link href={"/"}>
                         <p>Home</p>

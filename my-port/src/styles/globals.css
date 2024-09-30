@@ -8,11 +8,9 @@
   --background-end-rgb: 255, 255, 255;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-   
-  }
-}
+
+
+
 
 body {
   margin: 10px 10px;
@@ -42,14 +40,43 @@ body {
   border-radius: 2px;
   cursor: pointer;
   position: relative;
+  
 }
 
 .sectionStyle:hover {
   background-color: rgba(0, 0, 0, 0.178);
-  transition: 0.3s;
+  transform: translate(-3px, -3px);
+  transition: .2s;
 }
 
 .divInfos {
   line-height: 1.7em;
+}
+
+.projectSpan {
+  padding: 5px;
+  margin: 5px;
+  margin-bottom: 10px;
+  border: solid black 1px;
+  display: inline-block;
+}
+
+.iconProject {
+  display: inline-block;
+
+}
+
+.ImagesProject {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  margin: 10px;
+  border: solid black 2px;
+  margin: 10px;
+}
+
+.projTecsText {
+  display: inline-block;
+  margin: 10px;
 }
 
