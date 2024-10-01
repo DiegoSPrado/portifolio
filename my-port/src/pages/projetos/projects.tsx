@@ -25,14 +25,14 @@ export default function projects() {
                     </div>
                     <div>
                         <div className="projTecsText">
-                            <span className="font-bold mr-2 block text-center">Um Site para Amantes de Música</span>
+                            <span className="font-bold mr-2 block text-center">YeasyMusic - Um Site para Amantes de Música</span>
                             <span className="projectSpan">Next Js <RiNextjsFill className="iconProject" size={25}/></span>
                             <span className="projectSpan">TailwildCSS <RiTailwindCssFill className="iconProject"/></span>
                             <span className="projectSpan">TypeScript  <SiTypescript className="iconProject"/></span>
                         </div>
                         <div className="ImagesProject">
                         <span className='fraseOpa'>Acesse o site clicando aqui <MdArrowOutward className="iconProject"/></span>
-                        <Image src='/cover2-1.webp' alt="Imagem  Ye Provisória" width={500} height={500}/>
+                        <Image src="/ksg.png" alt="Imagem  Ye Provisória" width={500} height={500}/>
                         </div>
                     </div>
                     

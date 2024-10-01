@@ -29,6 +29,14 @@ body {
  
 }
 
+
+
+.spanEmail{
+  text-decoration: underline ;
+  text-decoration-color: midnightblue;
+  text-decoration-thickness: 3px;
+}
+
 .sectionStyle {
   display: flex;
   width: 100%;
@@ -72,6 +80,7 @@ body {
   align-items: center;
   width: 100%;
   margin: 10px;
+  margin-right: 10px;
   border: solid black 2px;
   margin: 10px;
 }
@@ -88,4 +97,13 @@ body {
 .fraseOpa:hover {
   opacity: 100;
   transition: 0.4s;
+}
+
+.aboutDiv{
+  margin: auto;
+  margin-top: 50px;
+  text-indent: 15px;
+  width: 50%;
+  line-height: 1.8em;
+  padding: 10px;
 }
