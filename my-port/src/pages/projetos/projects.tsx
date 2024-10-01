@@ -2,6 +2,7 @@ import Header from "@/components/Header";
 import Image from "next/image";
 
 import { RiNextjsFill, RiTailwindCssFill,  } from "react-icons/ri";
+import { MdArrowOutward } from "react-icons/md";
 import { SiTypescript } from "react-icons/si";
 export default function projects() {
     return (
@@ -18,6 +19,7 @@ export default function projects() {
                             <span className="projectSpan">TypeScript  <SiTypescript className="iconProject"/></span>
                         </div>
                         <div className='ImagesProject'>
+                            <span className='fraseOpa'>Acesse o site clicando aqui <MdArrowOutward className="iconProject"/></span>
                             <Image src="/port-home.png" alt='Imagem do Home da página' width={500} height={500}></Image>
                         </div>
                     </div>
@@ -27,6 +29,10 @@ export default function projects() {
                             <span className="projectSpan">Next Js <RiNextjsFill className="iconProject" size={25}/></span>
                             <span className="projectSpan">TailwildCSS <RiTailwindCssFill className="iconProject"/></span>
                             <span className="projectSpan">TypeScript  <SiTypescript className="iconProject"/></span>
+                        </div>
+                        <div className="ImagesProject">
+                        <span className='fraseOpa'>Acesse o site clicando aqui <MdArrowOutward className="iconProject"/></span>
+                        <Image src='/cover2-1.webp' alt="Imagem  Ye Provisória" width={500} height={500}/>
                         </div>
                     </div>
                     
