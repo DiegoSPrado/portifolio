@@ -9,7 +9,11 @@
 }
 
 
-
+@media screen and (max-width: 500px){
+  .aboutDiv {
+    width: 100%;
+  }
+}
 
 
 body {
@@ -102,8 +106,7 @@ body {
 .aboutDiv{
   margin: auto;
   margin-top: 50px;
-  text-indent: 15px;
-  width: 50%;
+  width: 450px;
   line-height: 1.8em;
   padding: 10px;
 }

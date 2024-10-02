@@ -13,9 +13,11 @@ export default function about() {
                     Me chamo Diego Prado, tenho 21 anos, faço faculdade de engenharia de software, e sou um desenvolvedor júnior.
                 Tenho experiência na área de web developer, utilizando o JavaScript e o TypeScript como base, além de seus frameworks, NodeJs e NextJs.   
                 </p>
-                <p>
-                    Obrigado por visitar meu website. Espero que você o ache informativo e agradável. Você pode me contatar pelo <span className="spanEmail">diego-santosprado@gmail.com</span>
-                </p>
+                <div className="mt-4">
+                    <p>
+                        Obrigado por visitar meu website. Espero que você o ache informativo e agradável. Você pode me contatar pelo <span className="spanEmail">diego-santosprado@gmail.com</span>
+                    </p>
+                </div>
             </div>
         </div>
     )
